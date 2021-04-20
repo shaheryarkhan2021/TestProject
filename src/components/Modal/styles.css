@@ -1,0 +1,25 @@
+.background-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 35;
+  background: rgba(33,33,33,.48);
+  opacity: 1;
+}
+
+.reveal {
+  position: absolute;
+  display: block;
+  top: 10% !important;
+  z-index: 40;
+  left: 50% !important;
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  min-height: 124px;
+  max-height: 437px;
+  transform: translate(-50%, -10%);
+  margin-left: auto;
+  margin-right: auto;
+}
